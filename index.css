@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    overflow: hidden;
 }
 
 body {
@@ -58,10 +57,10 @@ main {
 aside, section, article {
     background: #fff;
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: 15px;
-    padding: 20px;
+    padding: 18.6px;
     flex: 1 1 calc(33% - 40px);
     max-width: calc(33% - 40px);
 }
