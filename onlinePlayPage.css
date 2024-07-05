@@ -1,0 +1,65 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    background-color: lightgray;
+    text-align: center;
+    padding: 25px;
+    height: 20vh;
+}
+
+.navbar{
+    background-color: rgb(70, 70, 70);
+    height: 5vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons{
+    background-color: rgb(70, 70, 70);
+    border: none;
+    height: 100%;
+    width: 20vw;
+    font-size: medium;
+    color: rgb(227, 226, 226);
+    transition: background-color 0.2s;
+}
+
+.buttons:hover{
+    color: rgb(46, 46, 46);
+    background-color: rgb(176, 176, 176);
+}
+
+main{
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gameCanvas{
+    border: 3px solid black;    
+    height: 100%;
+}
+
+footer{
+    display: block;
+    clear: both;
+    background-color: rgb(232, 232, 232);
+    text-align: center;
+    padding: 10px;
+    height: 10vh;
+}
+
+@media screen and (max-width: 600px){
+    aside,section,article{
+        width: 100%;
+    }
+}
